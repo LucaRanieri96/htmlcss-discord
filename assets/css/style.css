@@ -36,6 +36,7 @@ body {
     padding: 1rem;
     margin-top: 1rem;
     
+    
 
 }
 
@@ -61,7 +62,7 @@ body {
     background-color: white;
     border-radius: 4rem;
     padding: 0.5rem 1rem;
-    margin-left: 5rem;
+    margin-left: 8rem;
     
     
 }
@@ -69,19 +70,16 @@ body {
 
 /* banner background + container*/
 .debug #banner-bg {
-    background-color: #00008b;
-    height: 540px;
+    
+    height: 35rem;
     display: flex;
     justify-content: center;
 
 }
 
 .container-ban {
-    height: 430px;
+    height: 35rem;
     width: 985px;
-    background-color: #ee82ee;
-    border: 2px dashed black;
-    align-self: center;
     display: flex;
     flex-direction: column;
     align-items: center;
