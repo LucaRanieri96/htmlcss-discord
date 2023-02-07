@@ -9,11 +9,6 @@ body {
     font-family: 'Nunito Sans', sans-serif;
 }
 
-/* Height of header */
-#app_header {
-    height: 39rem;
-}
-
 /* nav background */
 
 .background {
@@ -21,78 +16,84 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-  }
+}
+
 /* .container-nav */
 .container-nav {
     width: 1300px;
-    margin:auto;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .container-nav #logo {
-    
+
     flex-grow: 1;
     padding: 1rem;
     margin-top: 1rem;
-    
-    
+
+
 
 }
 
 .container-nav #links {
-    
+
     flex-grow: 4;
     padding: 1rem;
     display: flex;
     justify-content: space-evenly;
     color: white;
-    
+
 
 }
-.white-button1{
-    
+
+.white-button1 {
+
     background-color: white;
     border-radius: 4rem;
     padding: 0.5rem 1rem;
     margin-left: 8rem;
-      
+
 }
+
 /* /.container-nav */
 
 /* banner background + container*/
 .debug #banner-bg {
-    
-    height: 35rem;
+
+
     display: flex;
     justify-content: center;
 
 }
 
 .container-ban {
-    height: 35rem;
+    
     width: 985px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     padding: 2rem;
+    margin: 5rem;
 
 }
 
-h1 {
+h1 {margin: 0rem 1rem 1rem 1rem;
     font-size: 60px;
     color: white;
-    
+
 }
 
 .container-ban p {
-
+    margin-bottom: 4rem;
     font-size: 24px;
     color: white;
     text-align: center;
 }
-#inner-container{
+
+#inner-container {
     display: flex;
     flex-direction: row;
     
@@ -118,27 +119,29 @@ h1 {
 
 /* MAIN START */
 /* height main */
-#app_main {
-    height: 190rem;
-}
 
-/* bg-white */
-.bg-white {
-    
-    height: 20%;
-    background-color: white;
-}
+
+
 
 /* bg-grey */
 .bg-grey {
-    height: 20%;
-    background-color: #d3d3d3;
+    
+    background-color: #6c6c6d;
+}
+
+svg path {
+    fill: #6c6c6d;
+}
+
+img.wave-1hkxOo {
+    width: 100%;
+    height: fit-content;
 }
 
 /* first and third container with bg-white */
 .container-main {
     width: 1300px;
-    height: 100%;
+    
     margin: auto;
     display: flex;
     justify-content: center;
@@ -148,27 +151,34 @@ h1 {
 .container-main .container-right {
     width: 33%;
 }
-main h2{
+
+main h2 {
     font-size: 3rem;
     line-height: 3rem;
     margin-bottom: 1.5rem;
 }
-main p{
-    font-size: 1.3rem;   
+
+main p {
+    font-size: 1.3rem;
 }
-#big-container{
+
+#big-container {
     flex-direction: column;
 }
-#big-height{
+
+#big-height {
     height: 40%;
 }
-#big-container img{
-    width: 110%
+
+#big-container img {
+    width: 100%
 }
-#big-container p{
-   text-align: center;
+
+#big-container p {
+    text-align: center;
 }
-#big-container h3{
+
+#big-container h3 {
     background-image: url(../img/stars.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -176,7 +186,8 @@ main p{
     font-size: 2rem;
     padding: 1rem 2rem;
 }
-button{
+
+button {
     font-size: 20px;
     margin: 1rem;
     padding: 0.8rem 2rem;
@@ -185,11 +196,12 @@ button{
     border-radius: 4rem;
     border: none;
 }
+
 /* End of 4 section     */
-    
+
 /* footer height and bg */
 #app_footer {
-    height: 50rem;
+    
     background-color: #23272a;
 }
 
@@ -199,29 +211,35 @@ button{
     height: 90%;
     margin: auto;
     display: flex;
+    margin-bottom: 4rem;
 }
-.left h3{
-    
+
+.left h3 {
+
     margin: 1rem 0rem;
     font-size: 3rem;
     color: #8ea1e1;
 }
-.left img{
+
+.left img {
     height: 3%;
     margin-top: 1rem;
 }
-select{
+
+select {
     border: none;
     background: none;
     color: white;
     font-size: 1.3rem;
-    
+
 }
-i{
+
+i {
     margin: 1.8rem 1rem;
     color: white;
 }
-.left{
+
+.left {
     width: 33%;
     margin-top: 4rem;
 }
@@ -238,18 +256,20 @@ i{
     margin-top: 4rem;
     width: 25%;
     height: 100%;
-    
+
 
 }
-ul{
+
+ul {
     list-style-type: none;
     line-height: 2.5rem;
     color: white;
     font-style: bald;
     font-size: 1.2rem;
 }
-ul li:first-child{
-    color:#8ea1e1;
+
+ul li:first-child {
+    color: #8ea1e1;
 }
 
 /* end of footer top */
@@ -258,23 +278,25 @@ ul li:first-child{
     border-top: 1px solid #8ea1e1;
     width: 1300px;
     margin: auto;
+    padding-bottom: 4rem;
     display: flex;
     justify-content: center;
 }
 
-.space-between{
+.space-between {
     width: 100%;
     align-self: flex-end;
     display: flex;
     justify-content: space-between;
 }
 
-.space-between .registrati{
+.space-between .registrati {
     background-color: #8ea1e1;
     padding: 0.5rem 1rem;
     align-self: center;
     border-radius: 4rem;
     color: white;
-} */
+}
 
+*/
 /* end of footer bottom
