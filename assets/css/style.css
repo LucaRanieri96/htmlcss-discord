@@ -200,13 +200,13 @@ button{
     margin: auto;
     display: flex;
 }
-.container-left2 h3{
+.left h3{
     
     margin: 1rem 0rem;
     font-size: 3rem;
     color: #8ea1e1;
 }
-.container-left2 img{
+.left img{
     height: 3%;
     margin-top: 1rem;
 }
@@ -257,11 +257,9 @@ ul li:first-child{
 .foot_bottom {
     border-top: 1px solid #8ea1e1;
     width: 1300px;
-    height: 10%;
     margin: auto;
     display: flex;
     justify-content: center;
-    padding: 1rem;
 }
 
 .space-between{
@@ -271,12 +269,12 @@ ul li:first-child{
     justify-content: space-between;
 }
 
-.button{
+.space-between .registrati{
     background-color: #8ea1e1;
     padding: 0.5rem 1rem;
     align-self: center;
     border-radius: 4rem;
     color: white;
-}
+} */
 
-/* end of footer bottom */
+/* end of footer bottom
