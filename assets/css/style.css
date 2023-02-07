@@ -121,23 +121,31 @@ h1 {margin: 0rem 1rem 1rem 1rem;
 /* height main */
 
 
-
+.bg-white{
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
 
 /* bg-grey */
 .bg-grey {
-    
-    background-color: #6c6c6d;
+    padding: 4rem 0rem;
+    background-color: #f6f6f6;
 }
 
 svg path {
-    fill: #6c6c6d;
+    fill: #f6f6f6;
 }
 
-img.wave-1hkxOo {
-    width: 100%;
-    height: fit-content;
+.wave-1hkxOo {
+    width: 120%;
+    position:relative;
+    top: 2.4rem; 
 }
 
+.wave-2hkxOo{
+    
+}
+    
 /* first and third container with bg-white */
 .container-main {
     width: 1300px;
