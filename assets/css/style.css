@@ -194,7 +194,7 @@ button{
 }
 
 /* footertop */
-#container-foot_top {
+#foot_top {
     width: 1300px;
     height: 90%;
     margin: auto;
@@ -221,12 +221,12 @@ i{
     margin: 1.8rem 1rem;
     color: white;
 }
-.container-left2 {
+.left{
     width: 33%;
     margin-top: 4rem;
 }
 
-.container-right2 {
+.right {
     width: 66%;
     height: 90%;
     display: flex;
@@ -254,28 +254,29 @@ ul li:first-child{
 
 /* end of footer top */
 /* footer bottom */
-.container-foot_bottom {
+.foot_bottom {
+    border-top: 1px solid #8ea1e1;
     width: 1300px;
     height: 10%;
     margin: auto;
     display: flex;
     justify-content: center;
+    padding: 1rem;
 }
 
-.container4 {
+.space-between{
     width: 100%;
-    height: 80%;
     align-self: flex-end;
-    background-color: #7fffd4;
     display: flex;
     justify-content: space-between;
 }
 
-.container5 {
-    background-color: #ffb6c1;
-    border: 2px dashed black;
-    padding: 5px;
+.button{
+    background-color: #8ea1e1;
+    padding: 0.5rem 1rem;
     align-self: center;
+    border-radius: 4rem;
+    color: white;
 }
 
 /* end of footer bottom */
