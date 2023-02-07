@@ -118,9 +118,9 @@ h1 {margin: 0rem 1rem 1rem 1rem;
 /* /.banner-bg HEADER END */
 
 /* MAIN START */
-/* height main */
 
 
+/* bg-white */
 .bg-white{
     padding-top: 4rem;
     padding-bottom: 2rem;
@@ -142,9 +142,7 @@ svg path {
     top: 2.4rem; 
 }
 
-.wave-2hkxOo{
-    
-}
+
     
 /* first and third container with bg-white */
 .container-main {
@@ -155,11 +153,6 @@ svg path {
     justify-content: center;
     align-items: center;
 }
-
-.container-main .container-right {
-    width: 33%;
-}
-
 main h2 {
     font-size: 3rem;
     line-height: 3rem;
@@ -272,7 +265,7 @@ ul {
     list-style-type: none;
     line-height: 2.5rem;
     color: white;
-    font-style: bald;
+    font-style: normal;
     font-size: 1.2rem;
 }
 
@@ -306,5 +299,4 @@ ul li:first-child {
     color: white;
 }
 
-*/
 /* end of footer bottom
