@@ -185,11 +185,11 @@ button{
     border-radius: 4rem;
     border: none;
 }
-    
+/* End of 4 section     */
     
 /* footer height and bg */
 #app_footer {
-    height: 800px;
+    height: 50rem;
     background-color: #23272a;
 }
 
@@ -200,31 +200,56 @@ button{
     margin: auto;
     display: flex;
 }
-
+.container-left2 h3{
+    
+    margin: 1rem 0rem;
+    font-size: 3rem;
+    color: #8ea1e1;
+}
+.container-left2 img{
+    height: 3%;
+    margin-top: 1rem;
+}
+select{
+    border: none;
+    background: none;
+    color: white;
+    font-size: 1.3rem;
+    
+}
+i{
+    margin: 1.8rem 1rem;
+    color: white;
+}
 .container-left2 {
     width: 33%;
-    height: 90%;
-    background-color: #f08080;
-    border: 2px dashed black;
-    align-self: center;
+    margin-top: 4rem;
 }
 
 .container-right2 {
     width: 66%;
     height: 90%;
-    background-color: #20b2aa;
-    border: 2px dashed white;
-    align-self: center;
     display: flex;
+    align-self: center;
 
 }
 
 .nested-cont {
+    margin-top: 4rem;
     width: 25%;
     height: 100%;
-    background-color: #20b2aa;
     border: 2px dashed white;
 
+}
+ul{
+    list-style-type: none;
+    line-height: 2.5rem;
+    color: white;
+    font-style: bald;
+    font-size: 1.2rem;
+}
+ul li:first-child{
+    color:#8ea1e1;
 }
 
 /* end of footer top */
